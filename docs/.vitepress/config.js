@@ -4,7 +4,7 @@ const config = defineConfig({
   title: "我的博客", // 网站标题
   description: "我的vitepress博客", // 网站描述
   //  部署时的路径 默认 /  可以使用二级地址 /base/
-  base: "/",
+  base: "./",
   // 网页头部配置，引入需要图标，css，js
   head: [],
   // 主题配置
