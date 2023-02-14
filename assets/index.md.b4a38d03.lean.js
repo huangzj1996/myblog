@@ -1,1 +1,0 @@
-import{_ as e,c as t,o}from"./app.a0c7fa4d.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{"home":true,"footer":"MIT Licensed | Copyright © 2019-present Evan You"},"headers":[],"relativePath":"index.md"}'),r={name:"index.md"};function n(a,s,c,i,d,p){return o(),t("div")}const f=e(r,[["render",n]]);export{m as __pageData,f as default};
