@@ -4,7 +4,7 @@ const config = defineConfig({
   title: "不知蠢蠢的博客", // 网站标题
   description: "不知蠢蠢的vitepress博客", // 网站描述
   //  部署时的路径 默认 /  可以使用二级地址 /base/
-  base: "./",
+  base: "/myblog/",
   // 在右下角显示最后更新的时间
   lastUpdated: true,
   // 网页头部配置，引入需要图标，css，js
