@@ -21,12 +21,11 @@ Object.prototype.toString.call()：所有数据都能判断
 - 都可以变量提升到作用域顶部，var 初始化为 undefined，let 和 const 不能初始化
 - 声明期间，var 和 let 可以不初始化，const 必须初始化
 
-#### promise
 
-#### 异步
+
 
 #### 原型和原型链
-
+- 每个***函数***都有一个 prototype 属性。***函数***的 prototype 属性指向了一个对象，这个对象正是调用该构造函数而创建的**实例**的原型
 ### 作用域和作用域链
 
 作用域分为：全局作用域和块级作用域
@@ -130,6 +129,9 @@ function deepClone(obj = {}, map = new WeakMap()) {
   return result;
 }
 ```
+#### 异步
+#### promise
+
 
 ### JS 的事件循环？宏任务有哪些？微任务有哪些？
 
