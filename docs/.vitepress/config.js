@@ -62,6 +62,10 @@ const config = defineConfig({
           text: "CSS",
           link: "/interview/css",
         },
+        {
+          text: "Browser",
+          link: "/interview/browser",
+        },
       ],
     },
   },
